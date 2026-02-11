@@ -1,0 +1,10 @@
+print('='*3,'Calculadora de Area para Pintura', '='*3)
+
+lar = float(input('Qual a largura da sua parede? '))
+aut = float(input('Quala a Altura da sua parede? '))
+ren = float(input('Qual o rendimento por m² da tinta que sera usada? '))
+
+a1 = lar * aut
+rem = a1 / ren
+
+print(f'A sua parede tem a dimensão de {a1:.2} m² portanto você presisa de {rem:.3f} L para pintar sua parede')
