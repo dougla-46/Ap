@@ -1,0 +1,7 @@
+print('='*3, 'Fahrenheit para Celsius', '='*3)
+
+cel = float(input('Digite uma temperatura em Fahrenheit (não colocar símbolos):'))
+
+c1 = (cel - 32) * 5 / 9
+
+print(f'{cel:.1f} Fº é igual a {c1:.1f}Cº')
