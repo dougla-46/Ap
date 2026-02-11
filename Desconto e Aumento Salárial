@@ -1,0 +1,13 @@
+print('='*3,'Bem Vindo, Usuário!','='*3)
+
+sal = float(input('Qual seria o seu salario? R$ '))
+des = int(input('Quanto % você quer descontar? '))
+aum = int(input('Quantos % seria o valor do aumento? '))
+
+des1 = sal - ( sal * des / 100)
+aum1 = des1 + (des1 * aum / 100)
+
+print(f'''
+Salario Descontado:R$ {des1:.2f} (desconto de {des}%)
+Salario Final: R$ {aum1:.2f} (com um aumento de {aum}%)
+''')
