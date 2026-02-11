@@ -1,0 +1,12 @@
+print('='*3,'Bem Vindo, Usuário','='*3)
+
+n1 = float(input('Qual seria o preço do produto? R$ '))
+n2 = int(input('Em quantas vezes você quer parcelar? '))
+j1 = int(input('Quantos % de juros você quer aplicar? '))
+
+r1 = n1 + (n1 * j1 / 100)
+r2 = r1 / n2
+
+print(f'''
+{n2}x de {r2}
+para um total de {r1}''')
