@@ -1,0 +1,9 @@
+from math import sin, cos, tan, radians
+
+an = float(input('Digite o ângulo que você deseja: '))
+sen = sin(radians(an))
+print(f'O ângulo {an} tem o seno de {sen:.2f}')
+cos = cos(radians(an))
+print(f'O ângulo {an} tem o cosseno de {cos:.2f}')
+tan = tan(radians(an))
+print(f'O ângulo {an} tem a tangente de {tan:.2f}')
